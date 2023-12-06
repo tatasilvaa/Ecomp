@@ -1,0 +1,187 @@
+        /* TABLET */
+@media(max-width: 900px)
+{
+ 
+            /* CABEÇALHO */
+    header
+    {
+        padding: 0px 30px;
+    }
+
+    header nav ul li
+    {
+        font-size: 17px;
+        margin:0px 18px 
+    }
+
+    header nav ul
+    {
+        padding-left: 0px;
+    }
+
+            /* MEIO DA PÁGINA -> PRIMEIRA SESSÃO */
+    main .primeira_section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    main .primeira_section h1
+    {
+        margin: 80px 0px 50px 0px;
+    }
+
+    main .primeira_section p
+    {
+        font-size: 17px;
+        max-width: 800px;
+        margin-top: 30px;
+
+    }
+
+    .container_ecomp
+    {
+        padding: 0px 0px 110px 0px;
+        margin: 0px 20px;
+    }
+    
+    .primeira_section img
+    {
+        height: 390px;
+        width: 390px;
+    }
+    
+
+            /* MEIO DA PÁGINA -> SEGUNDA PARTE */
+    main .segunda_section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    main .segunda_section p
+    {
+        font-size: 18px;
+        max-width: 800px;
+    }
+
+    .container_our_story
+    {
+        margin: 0px 20px;
+    }
+
+    .segunda_section img
+    {
+        height: 400px;
+        width: 363px;
+    }    
+
+            /* RODAPÉ */
+    footer
+    {
+        margin-top: 115px;
+    }
+
+    footer p
+    {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+}
+
+        /* CELULAR */
+@media(max-width: 700px)
+{
+ 
+        /* CABEÇALHO */
+    header nav ul
+    {
+        display: none;
+    }
+
+    .header_menu
+    {
+        display: flex;
+        margin-right: 10px;
+        height: 40px;
+        width: 40px;
+    }
+
+        /* RODAPÉ */
+    footer p
+    {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 30px;
+        padding: 0px 14px;
+    }
+
+}
+
+        /* AJUSTES DO CELULAR */
+@media(max-width: 500px)
+{
+
+        /* MEIO DA PÁGINA -> PRIMEIRA SESSÃO */
+    main .primeira_section h1
+    {
+        font-size: 32px;
+    }
+
+    main .primeira_section p
+    {
+        font-size: 14px;
+    }
+
+    .primeira_section img
+    {
+        height: 320px;
+        width: 320px;
+    }
+
+    .container_ecomp
+    {
+        padding: 0px 0px 70px 0px;
+    }
+
+        /* MEIO DA PÁGINA -> SEGUNDA PARTE */
+    main .segunda_section h1
+    {
+        font-size: 35px;
+        margin-top: 70px;
+    }
+
+    main .segunda_section p
+    {
+        font-size: 14px;
+    }
+
+    .segunda_section img
+    {
+        height: 355px;
+        width: 315px;
+    } 
+
+        /* RODAPÉ */
+    footer
+    {
+        margin-top: 80px;
+    }
+
+    footer p
+    {
+        font-size: 13px;
+    }
+
+    .paragrafo
+    {
+        margin-top: 20px;
+    }
+}
+

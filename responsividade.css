@@ -122,6 +122,11 @@
         padding: 0px 14px;
     }
 
+    footer p:hover
+    {
+        border-bottom: 0px;
+    }
+
 }
 
         /* AJUSTES DO CELULAR */
@@ -179,9 +184,13 @@
         font-size: 13px;
     }
 
+    footer p:hover
+    {
+        border-bottom: 0px;
+    }
+
     .paragrafo
     {
         margin-top: 20px;
     }
 }
-

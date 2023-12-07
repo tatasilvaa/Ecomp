@@ -1,7 +1,7 @@
         /* TABLET */
 @media(max-width: 900px)
 {
- 
+
             /* CABEÇALHO */
     header
     {
@@ -39,7 +39,6 @@
         font-size: 17px;
         max-width: 800px;
         margin-top: 30px;
-
     }
 
     .container_ecomp
@@ -54,8 +53,7 @@
         width: 390px;
     }
     
-
-            /* MEIO DA PÁGINA -> SEGUNDA PARTE */
+            /* MEIO DA PÁGINA -> SEGUNDA SESSÃO */
     main .segunda_section
     {
         display: flex;
@@ -86,6 +84,9 @@
     footer
     {
         margin-top: 115px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
     }
 
     footer p
@@ -93,6 +94,12 @@
         font-size: 18px;
         margin-top: 30px;
     }
+
+    footer p:hover
+    {
+        border-bottom: 0px;
+    }
+
 }
 
         /* CELULAR */
@@ -117,14 +124,9 @@
     footer p
     {
         text-align: center;
-        font-size: 16px;
+        font-size: 15px;
         margin-top: 30px;
         padding: 0px 14px;
-    }
-
-    footer p:hover
-    {
-        border-bottom: 0px;
     }
 
 }
@@ -155,7 +157,7 @@
         padding: 0px 0px 70px 0px;
     }
 
-        /* MEIO DA PÁGINA -> SEGUNDA PARTE */
+        /* MEIO DA PÁGINA -> SEGUNDA SESSÃO */
     main .segunda_section h1
     {
         font-size: 35px;
@@ -182,15 +184,11 @@
     footer p
     {
         font-size: 13px;
-    }
-
-    footer p:hover
-    {
-        border-bottom: 0px;
+        margin-top: 10px;
     }
 
     .paragrafo
     {
-        margin-top: 20px;
+        margin-top: 14px;
     }
 }

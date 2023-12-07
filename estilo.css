@@ -27,7 +27,6 @@ header nav ul
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 60px;
 }
 
 header nav ul li
@@ -36,7 +35,6 @@ header nav ul li
     color: white;
     font-size: 22px;
     margin-left: 33px;
-    height: 25px;
 }
 
 header nav ul li:hover
